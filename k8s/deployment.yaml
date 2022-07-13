@@ -25,7 +25,7 @@ spec:
         - name: Vless_UUID
           value: "4ce6aeff-4a68-40ea-93a8-befb7b2b3a8b"
         - name: Vless_Path
-          value: "/yfthd"
+          value: "/yfuihyithd"
         - name: Vmess_UUID
           value: "4ce6aeff-4a68-40ea-93a8-befb7b2b3a8b"
         - name: Vmess_Path
