@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: yfthd
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: yfthd
   template:
     metadata:
       labels:
-        app: ray
+        app: yfthd
     spec:
       containers:
-      - image: okteto.dev/ray:latest
-        name: ray
+      - image: okteto.dev/yfthd:latest
+        name: yfthd
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "4ce6aeff-4a68-40ea-93a8-befb7b2b3a8b"
         - name: Vless_Path
-          value: "/vl555"
+          value: "/yfthd"
         - name: Vmess_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "4ce6aeff-4a68-40ea-93a8-befb7b2b3a8b"
         - name: Vmess_Path
-          value: "/vm666"
+          value: "/yfthd"
         - name: Share_Path
           value: "/v2link"
